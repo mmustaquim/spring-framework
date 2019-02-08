@@ -278,7 +278,7 @@ public abstract class ScriptUtils {
 	 * @throws IOException in case of I/O errors
 	 */
 	private static String readScript(EncodedResource resource, @Nullable String commentPrefix,
-									 @Nullable String separator, @Nullable String blockCommentEndDelimiter) throws IOException {
+									@Nullable String separator, @Nullable String blockCommentEndDelimiter) throws IOException {
 
 		LineNumberReader lnr = new LineNumberReader(resource.getReader());
 		try {
